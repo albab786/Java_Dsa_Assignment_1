@@ -1,0 +1,289 @@
+
+
+
+JDK stands for __1__.
+1.	Java development kit
+2.	Java deployment kit
+3.	JavaScript deployment kit
+4.	None of these
+________________________________________
+What makes the Java platform independent?
+1.	Advanced programming language
+2.	It uses bytecode for execution
+3.	Class compilation
+4.	All of these
+Ans.2
+________________________________________
+Can we keep a different name for the java class name and java file name?
+1.	Yes
+2.	No
+Ans. 1________________________________________
+What is the entry point of a program in Java?
+1.	main() method
+2.	The first line of code
+3.	Last line of code
+4.	main class
+Ans. 1________________________________________
+Which of the following is the correct syntax to create a variable in Java?
+1.	var name;
+2.	int name;
+3.	var name int;
+4.	All of these
+Ans.2________________________________________
+Can the Java program accept input from the command line?
+1.	Yes, using command-line arguments
+2.	Yes, by access command prompt
+3.	No
+4.	None of these
+Ans.2________________________________________
+String args[] in main method are used for?
+
+public static void main(String args[])
+
+{
+
+  //
+
+}
+
+A) Passing arguments at compile time
+
+B) Passing arguments at run time
+
+C) Counting number of words
+
+D) Nothing
+
+Ans.b
+________________________________________
+What is the use of Access modifier "pubic" in Java language?
+
+A) To hide the main method from misuse
+
+B) To call the main method outside of Class or Package by JVM
+
+C) To protect main method
+
+D) None of the above
+Ans.b
+
+________________________________________
+What is the need to mention "static" before main method?
+
+A) To call main method without creating an object of class
+
+B) To make main method as class method common to all instances
+
+C) Both A and B
+
+D) None of the above
+Ans.c
+________________________________________
+What does a Data Type in Java refers to?
+
+A) The place where data is stored
+
+B) The technique how data is retreived
+
+C) The type or variety of data being handled for reading and writing
+
+D) None of the above
+Ans.c________________________________________
+
+which among the following is not a Data Type in Java?
+
+A) short
+
+B) int
+
+C) long double
+
+D) double
+
+Ans.c________________________________________
+Which is the data type that is not recommended for numeric applications in Java?
+
+A) byte
+
+B) float
+
+C) int
+
+D) long
+Ans.a________________________________________
+What is the size of a FLOAT floating point number in Java?
+
+A) 2 bytes
+
+B) 4 bytes
+
+C) 6 bytes
+
+D) 8 bytes
+
+Ans.b________________________________________
+What is the abbreviation of ASCII?
+
+A) American Standard Characters for Information Interchange
+
+B) Australian Standard Code for Information Interchange
+
+C) American Standard Code for Information Interchange
+
+D) None of the above
+
+
+Ans.c________________________________________
+Java is case sensitive langauge
+a)True 
+b)false
+Ans.a________________________________________
+What is the error in this code?
+
+byte b = 50;
+b = b * 50;
+This problem has only one correct answer
+
+a)b can not contain value 2500, limited by its range.
+b)* operator has converted b * 50 into int, which can not be converted to byte without casting.
+c)b can not contain value 50.
+d) No error in this code.
+
+
+Ans.b________________________________________
+
+public class  Solution{
+    public static void main(String [] args)  {
+        double a = 6 / 4; 
+        int b  = 6 / 4;
+        double c = a + b;
+        System.out.println(c);
+    }
+}
+   
+a)3.0
+b)2.0
+c)2.5
+d)1.5
+Ans.b________________________________________
+
+public class  Solution{
+    public static void main(String [] args)  {
+        double a = 55.5;
+        int b = 55;
+        a = a % 10;
+        b = b % 10;
+        System.out.println(a + " "  + b);
+      }
+}
+a) 5 5
+b)5.5 5
+c) 6.5
+d) none of the above
+Ans.b________________________________________
+
+public class  Solution {
+    public static void main(String [] args)  {
+        int var1 = 5;
+        int var2 = 6;
+        System.out.print(var1 > var2);
+    }
+}
+a) true
+b) false
+c)0
+d) 1
+e) error
+
+Ans.b________________________________________
+if else
+
+
+public static void main(String args[])
+{
+    int a=10,b=15;
+    if(a>b)
+    {
+        System.out.print("a ");
+    }
+    else
+    {
+        System.out.print("b ");
+    }
+    System.out.print("is greater");
+}
+
+
+a)a
+b)b
+c)a is greater
+d)b is greater
+Ans.d________________________________________
+
+public static void main(String args[])
+{
+        int x = 5;
+        if (x < 6)
+            System.out.print("Hello  ");
+        if(x == 5){
+            System.out.print("Hi  ");
+        }
+        else{
+            System.out.print("Hey ");
+        }
+}
+
+Ans. Output- Hello Hi________________________________________
+
+  public static void main(String args[])
+    {
+        int var1 = 5;
+        int var2 = 6;
+        if ((var2 = 1) == var1)
+            System.out.print(var2);
+        else
+            System.out.print(var2 + 1);
+    }   
+
+Ans. output-2________________________________________
+Let a and b are the two integers. Which option can be used to check out that one of the numbers is positive and the other is negative?
+
+a)   a>0 && b>0
+b) a>0 && b<0
+c) a<0 || b<0
+d) a*b<0
+
+Ans.________________________________________
+
+public static void main (String[] args) {
+  int i=0;
+  while(i<10)
+  {
+      i=i+1;
+      System.out.print(i);
+      i=i+1;
+  }
+}
+
+
+Ans. 13579________________________________________
+
+main() {
+    int a=50,b=20;
+    if(a>b)
+    {
+        if(a>100)
+            print ("Ace");
+        if(b<100)
+            b=50;
+    }
+    else if(a==b)
+    {
+      print ("King");
+    }
+    else
+    {
+        print ("Queen");
+    }
+}
+Ans. King
